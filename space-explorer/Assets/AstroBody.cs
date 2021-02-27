@@ -17,10 +17,4 @@ public class AstroBody
         float volume = (float) (( 4 * Math.PI * radius * radius * radius) / 3 );
         this.mass = density * volume;
     }
-
-    public float getMass()
-    {
-        return this.mass;
-    }
-
 }

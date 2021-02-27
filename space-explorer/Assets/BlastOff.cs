@@ -20,6 +20,11 @@ public class BlastOff : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // print("Hello Update!");
+        print("Hello Update!");
+
+        foreach (AstroBody astroBody in solarSystem)
+        {
+            print(astroBody.body.name + " " + astroBody.mass);
+        }
     }
 }
