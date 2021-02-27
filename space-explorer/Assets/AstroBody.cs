@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-public class AstroBody : MonoBehaviour
+public class AstroBody
 {
 
     public GameObject body;
